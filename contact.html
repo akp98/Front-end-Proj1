@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="PROJ1CSS/contact.css">
+    <link rel="stylesheet" type="text/css" href="PROJ1CSS/footer.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-info">
+            <div class="container-fluid">
+            <span class="fs-5" onclick="red()" style="cursor: pointer;"> NIDAAN CENTER</span>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active nav_ancr" aria-current="page" href="#">PATIENTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav_ancr" href="#">DOCTORS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav_ancr" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SERVICES
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item bg-info-subtle nav_ancr" href="book.html">Book a Test</a></li>
+                      <li><a class="dropdown-item bg-info-subtle nav_ancr" href="#">Nearest Center</a></li>
+                      <li><a class="dropdown-item bg-info-subtle nav_ancr" href="#">Download Report</a></li>
+                      <li><a class="dropdown-item bg-info-subtle nav_ancr" href="#">Special Programs</a></li>
+                      <li><a class="dropdown-item bg-info-subtle nav_ancr" href="#">Discounted Offers</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav_ancr" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      FOR YOU
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item bg-success-subtle nav_ancr" href="about.html">About Us</a></li>
+                      <li><a class="dropdown-item bg-success-subtle nav_ancr" href="contact.html">Contact Us</a></li>
+                      <li><a class="dropdown-item bg-success-subtle nav_ancr" href="#">Blogs</a></li>
+                      <li><a class="dropdown-item bg-success-subtle nav_ancr" href="#">FAQS</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search Test/Packages" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header> 
+    <div class="jumbotron jumbotron-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                    <h1 class="h1">
+                        Contact us</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="well well-sm">
+                    <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">
+                                    Email Address</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                    </span>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">
+                                    Subject</label>
+                                <select id="subject" name="subject" class="form-control" required="required">
+                                    <option value="na" selected="">Choose One:</option>
+                                    <option value="service">General Customer Service</option>
+                                    <option value="suggestions">Suggestions</option>
+                                    <option value="product">Product Support</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Message</label>
+                                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                    placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                Send Message</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <form>
+                <legend><span class="glyphicon glyphicon-globe"></span>Our office</legend>
+                <address>
+                    <strong>NIDAAN CENTER</strong><br>
+                    T 147 GF Near Lal Mandir<br>
+                    Baljeet Nagar New Delhi-110008<br>
+                    <abbr title="Phone">
+                        P:</abbr>
+                    9871285038
+                </address>
+                <address>
+                    <strong>Full Name</strong><br>
+                    <a href="mailto:#">amitpandey5898@gmail.com</a>
+                </address>
+                </form>
+            </div>
+        </div>
+    </div>
+    <section class="contact-sec1">
+        <div class="box">
+            <div class="container">
+                 <div class="row">
+                     
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                       
+                            <div class="box-part text-center insta">
+                                
+                                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                                
+                                <div class="title">
+                                    <h4>Instagram</h4>
+                                </div>
+                                
+                                <div class="text">
+                                    <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                                </div>
+                                
+                                <a href="#">Learn More</a>
+                                
+                             </div>
+                        </div>	 
+                        
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                       
+                            <div class="box-part text-center insta">
+                                
+                                <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+                            
+                                <div class="title">
+                                    <h4>Twitter</h4>
+                                </div>
+                                
+                                <div class="text">
+                                    <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                                </div>
+                                
+                                <a href="#">Learn More</a>
+                                
+                             </div>
+                        </div>	 
+                        
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                       
+                            <div class="box-part text-center insta">
+                                
+                                <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+                                
+                                <div class="title">
+                                    <h4>Facebook</h4>
+                                </div>
+                                
+                                <div class="text">
+                                    <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                                </div>
+                                
+                                <a href="#">Learn More</a>
+                                
+                             </div>
+                        </div>	 
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                       
+                            <div class="box-part text-center insta">
+                                
+                                <i class="fa fa-pinterest-p fa-3x" aria-hidden="true"></i>
+                                
+                                <div class="title">
+                                    <h4>Pinterest</h4>
+                                </div>
+                                
+                                <div class="text">
+                                    <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                                </div>
+                                
+                                <a href="#">Learn More</a>
+                                
+                             </div>
+                        </div>	 
+                        
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                       
+                            <div class="box-part text-center insta">
+                                
+                                <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i>
+                            
+                                <div class="title">
+                                    <h4>Google</h4>
+                                </div>
+                                
+                                <div class="text">
+                                    <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                                </div>
+                                
+                                <a href="#">Learn More</a>
+                                
+                             </div>
+                        </div>	 
+                        
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                       
+                            <div class="box-part text-center insta">
+                                
+                                <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                                
+                                <div class="title">
+                                    <h4>Github</h4>
+                                </div>
+                                
+                                <div class="text">
+                                    <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                                </div>
+                                
+                                <a href="#">Learn More</a>
+                                
+                             </div>
+                        </div>
+                
+                </div>		
+            </div>
+        </div> 
+
+    </section>
+    <footer class="footer">
+        <div class="container bottom_border">
+        <div class="row">
+        <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+        <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+        <!--headin5_amrc-->
+        <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+        <p><i class="fa fa-phone"></i>  +91-9999878398  </p>
+        <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+        
+        
+        </div>
+        
+        
+        <div class=" col-sm-4 col-md  col-6 col">
+        <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+        <!--headin5_amrc-->
+        <ul class="footer_ul_amrc">
+        <li><a href="http://webenlance.com">Image Rectoucing</a></li>
+        <li><a href="http://webenlance.com">Clipping Path</a></li>
+        <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+        <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+        <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+        <li><a href="http://webenlance.com">Image Cropping</a></li>
+        </ul>
+        <!--footer_ul_amrc ends here-->
+        </div>
+        
+        
+        <div class=" col-sm-4 col-md  col-6 col">
+        <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+        <!--headin5_amrc-->
+        <ul class="footer_ul_amrc">
+        <li><a href="http://webenlance.com">Remove Background</a></li>
+        <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
+        <li><a href="http://webenlance.com">Logo Design</a></li>
+        <li><a href="http://webenlance.com">Vectorization</a></li>
+        <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+        <li><a href="http://webenlance.com">Image Cropping</a></li>
+        </ul>
+        <!--footer_ul_amrc ends here-->
+        </div>
+        
+        
+        <div class=" col-sm-4 col-md  col-12 col">
+        <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+        <!--headin5_amrc ends here-->
+        
+        <ul class="footer_ul2_amrc">
+        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+        </ul>
+        <!--footer_ul2_amrc ends here-->
+        </div>
+        </div>
+        </div>
+        
+        
+        <div class="container">
+        <ul class="foote_bottom_ul_amrc">
+        <li><a href="http://webenlance.com">Home</a></li>
+        <li><a href="http://webenlance.com">About</a></li>
+        <li><a href="http://webenlance.com">Services</a></li>
+        <li><a href="http://webenlance.com">Pricing</a></li>
+        <li><a href="http://webenlance.com">Blog</a></li>
+        <li><a href="http://webenlance.com">Contact</a></li>
+        </ul>
+        <!--foote_bottom_ul_amrc ends here-->
+        <p class="text-center">Copyright @2017 | Designed With by <a href="#">Your Company Name</a></p>
+        
+        <ul class="social_footer_ul">
+        <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <!--social_footer_ul ends here-->
+        </div>
+        
+        </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
+<script>
+    function red(){
+        location.href="home.html"
+    }
+</script>
+
+
+</body>
+</html>

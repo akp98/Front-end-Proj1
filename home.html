@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="PROJ1CSS/nav.css">
+    <link rel="stylesheet" type="text/css" href="PROJ1CSS/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   
+  </head>
+  <body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-info">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">NIDAAN CENTER</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">PATIENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DOCTORS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SERVICES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item bg-info-subtle" href="book.html">Book a Test</a></li>
+                <li><a class="dropdown-item bg-info-subtle" href="#">Nearest Center</a></li>
+                <li><a class="dropdown-item bg-info-subtle" href="#">Download Report</a></li>
+                <li><a class="dropdown-item bg-info-subtle" href="#">Special Programs</a></li>
+                <li><a class="dropdown-item bg-info-subtle" href="#">Discounted Offers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                FOR YOU
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item bg-success-subtle" href="about.html">About Us</a></li>
+                <li><a class="dropdown-item bg-success-subtle" href="contact.html">Contact Us</a></li>
+                <li><a class="dropdown-item bg-success-subtle" href="#">Blogs</a></li>
+                <li><a class="dropdown-item bg-success-subtle" href="#">FAQS</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search Test/Packages" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  <!-- carousal start      -->
+ <section class="carousal-sec">
+    
+ <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="PROJ1IMG/slide1.jpg" class="d-block w-100 car_sz" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="PROJ1IMG/slide2.jpeg" class="d-block w-100 car_sz" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="PROJ1IMG/slide3.jpg" class="d-block w-100 car_sz" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<!-- carousal end -->
+  </header>
+  <section class="sec1">
+  <section class="container">
+       <div class="row">
+          <div class="col-sm-3 col-lg-3 col-md-3">
+            <div class="card sec1-bg animate__animated animate__heartBeat" style="width: 16rem;">
+            <a href=""><img src="PROJ1IMG/map.png" class="card-img-top img1 mx-5" alt="..."></a> 
+              <div class="card-body">
+                <p class="card-text mx-5 text-success">Nearest Center</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3 col-md-3">
+            <div class="card sec1-bg animate__animated animate__heartBeat" style="width: 16rem;">
+              <img src="PROJ1IMG/flask.png" class="card-img-top img2 mx-5" alt="...">
+              <div class="card-body">
+                <p class="card-text mx-5 text-success">Book Test</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3 col-md-3">
+            <div class="card sec1-bg animate__animated animate__heartBeat" style="width: 15rem;">
+              <img src="PROJ1IMG/prescription.png" class="card-img-top img3 mx-5" alt="...">
+              <div class="card-body">
+                <p class="card-text mx-4 text-success">Upload Prescription</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3 col-md-3">
+            <div class="card sec1-bg animate__animated animate__heartBeat" style="width: 16rem;">
+              <img src="PROJ1IMG/download.png" class="card-img-top img4 mx-5" alt="...">
+              <div class="card-body">
+                <p class="card-text mx-5 text-success">Download Report</p>
+              </div>
+            </div>
+          </div>
+       </div>
+
+  </section>
+</section>
+<section class="sec2">
+  <h1 class="text-center text-info">Our Expert Team</h1>
+
+	<div class="container">
+	<div class="row">
+	
+	<!--team-1-->
+	<div class="col-lg-4">
+	<div class="our-team-main">
+	
+	<div class="team-front">
+	<img src="PROJ1IMG/man1.png" class="img-fluid" />
+	<h3>Amit kumar</h3>
+	<p>Head of Department</p>
+	</div>
+	
+	<div class="team-back">
+	<span>
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+	natoque penatibus et magnis dis parturient montes,
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+	natoque.
+	</span>
+	</div>
+	
+	</div>
+	</div>
+	<!--team-1-->
+	
+	<!--team-2-->
+	<div class="col-lg-4">
+	<div class="our-team-main">
+	
+	<div class="team-front">
+	<img src="PROJ1IMG/man2.png" class="img-fluid" />
+	<h3>Dilip kumar</h3>
+	<p>Senior Technician</p>
+	</div>
+	
+	<div class="team-back">
+	<span>
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+	natoque penatibus et magnis dis parturient montes,
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+	natoque.
+	</span>
+	</div>
+	
+	</div>
+	</div>
+	<!--team-2-->
+	
+	<!--team-3-->
+	<div class="col-lg-4">
+	<div class="our-team-main">
+	
+	<div class="team-front">
+	<img src="PROJ1IMG/woman1.png" class="img-fluid" />
+	<h3>Priya Singh</h3>
+	<p>Junior Technician</p>
+	</div>
+	
+	<div class="team-back">
+	<span>
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+	natoque penatibus et magnis dis parturient montes,
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+	natoque.
+	</span>
+	</div>
+	
+	</div>
+	</div>
+	<!--team-3-->
+	
+	<!--team-4-->
+	<div class="col-lg-4">
+	<div class="our-team-main">
+	
+	<div class="team-front">
+	<img src="PROJ1IMG/man3.png" class="img-fluid" />
+	<h3>Ajay Verma</h3>
+	<p>Sample Collection Boy</p>
+	</div>
+	
+	<div class="team-back">
+	<span>
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+	natoque penatibus et magnis dis parturient montes,
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+	natoque.
+	</span>
+	</div>
+	
+	</div>
+	</div>
+	<!--team-4-->
+	
+	<!--team-5-->
+	<div class="col-lg-4">
+	<div class="our-team-main">
+	
+	<div class="team-front">
+	<img src="PROJ1IMG/woman2.png" class="img-fluid" />
+	<h3>Harshita Sahani</h3>
+	<p>Front Desk Officer</p>
+	</div>
+	
+	<div class="team-back">
+	<span>
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+	natoque penatibus et magnis dis parturient montes,
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+	natoque.
+	</span>
+	</div>
+	
+	</div>
+	</div>
+	<!--team-5-->
+	
+	<!--team-6-->
+	<div class="col-lg-4">
+	<div class="our-team-main">
+	
+	<div class="team-front">
+	<img src="PROJ1IMG/man4.png" class="img-fluid" />
+	<h3>Ashutosh Sharma</h3>
+	<p>Medical Transcriptionist</p>
+	</div>
+	
+	<div class="team-back">
+	<span>
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+	natoque penatibus et magnis dis parturient montes,
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+	natoque.
+	</span>
+	</div>
+	
+	</div>
+	</div>
+	<!--team-6-->
+	
+	
+	
+	</div>
+	</div>
+</section>
+<section class="sec3">
+      <h2 class="text-center text-info">Why Us</h2>
+      <section class="container">
+           <div class="row">
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="card sec3_card" style="width: 16rem;">
+                  <img src="PROJ1IMG/sample.png" class="card-img-top img5 mx-5" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">50mn Samples</h5>
+                    <p class="card-text">Collected</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="card sec3_card" style="width: 17rem;">
+                  <img src="PROJ1IMG/lab.png" class="card-img-top img6 mx-5" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">More Than 180</h5>
+                    <p class="card-text">Laboratories</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="card sec3_card" style="width: 17rem;">
+                  <img src="PROJ1IMG/patients.png" class="card-img-top img7 mx-5" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">2500+</h5>
+                    <p class="card-text">Patients Services Center</p>
+                  </div>
+                </div>
+              </div>
+           </div>
+      </section> 
+      <br><br><br>
+      <section class="container">
+        <div class="row">
+           <div class="col-sm-4 col-lg-4 col-md-4">
+             <div class="card sec3_card" style="width: 17rem;">
+               <img src="PROJ1IMG/customers.png" class="card-img-top img8 mx-5" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">15mn</h5>
+                 <p class="card-text">Total Customers</p>
+               </div>
+             </div>
+           </div>
+           <div class="col-sm-4 col-lg-4 col-md-4">
+             <div class="card sec3_card" style="width: 17rem;">
+               <img src="PROJ1IMG/tests.png" class="card-img-top img9 mx-5" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">5000+</h5>
+                 <p class="card-text">Total no. of Test</p>
+               </div>
+             </div>
+           </div>
+           <div class="col-sm-4 col-lg-4 col-md-4">
+             <div class="card sec3_card" style="width: 17rem;">
+               <img src="PROJ1IMG/pickup.png" class="card-img-top img10 mx-5" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">8000+</h5>
+                 <p class="card-text">Pick-up Points</p>
+               </div>
+             </div>
+           </div>
+        </div>
+   </section> 
+</section>
+<section class="sec4">
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+
+            </div> 
+            <div class="col-sm-3 col-md-3 col-lg-3">
+
+            </div> 
+            <div class="col-sm-3 col-md-3 col-lg-3">
+
+            </div> 
+            <div class="col-sm-3 col-md-3 col-lg-3">
+
+            </div> 
+        </div>
+    </section>
+</section>
+<footer class="footer">
+  <div class="container bottom_border">
+  <div class="row">
+  <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+  <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+  <!--headin5_amrc-->
+  <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+  <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+  <p><i class="fa fa-phone"></i>  +91-9999878398  </p>
+  <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+  
+  
+  </div>
+  
+  
+  <div class=" col-sm-4 col-md  col-6 col">
+  <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+  <!--headin5_amrc-->
+  <ul class="footer_ul_amrc">
+  <li><a href="http://webenlance.com">Image Rectoucing</a></li>
+  <li><a href="http://webenlance.com">Clipping Path</a></li>
+  <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+  <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+  <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+  <li><a href="http://webenlance.com">Image Cropping</a></li>
+  </ul>
+  <!--footer_ul_amrc ends here-->
+  </div>
+  
+  
+  <div class=" col-sm-4 col-md  col-6 col">
+  <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+  <!--headin5_amrc-->
+  <ul class="footer_ul_amrc">
+  <li><a href="http://webenlance.com">Remove Background</a></li>
+  <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
+  <li><a href="http://webenlance.com">Logo Design</a></li>
+  <li><a href="http://webenlance.com">Vectorization</a></li>
+  <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+  <li><a href="http://webenlance.com">Image Cropping</a></li>
+  </ul>
+  <!--footer_ul_amrc ends here-->
+  </div>
+  
+  
+  <div class=" col-sm-4 col-md  col-12 col">
+  <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+  <!--headin5_amrc ends here-->
+  
+  <ul class="footer_ul2_amrc">
+  <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+  <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+  <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+  </ul>
+  <!--footer_ul2_amrc ends here-->
+  </div>
+  </div>
+  </div>
+  
+  
+  <div class="container">
+  <ul class="foote_bottom_ul_amrc">
+  <li><a href="http://webenlance.com">Home</a></li>
+  <li><a href="http://webenlance.com">About</a></li>
+  <li><a href="http://webenlance.com">Services</a></li>
+  <li><a href="http://webenlance.com">Pricing</a></li>
+  <li><a href="http://webenlance.com">Blog</a></li>
+  <li><a href="http://webenlance.com">Contact</a></li>
+  </ul>
+  <!--foote_bottom_ul_amrc ends here-->
+  <p class="text-center">Copyright @2017 | Designed With by <a href="#">Your Company Name</a></p>
+  
+  <ul class="social_footer_ul">
+  <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+  <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
+  <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+  <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+  </ul>
+  <!--social_footer_ul ends here-->
+  </div>
+  
+  </footer>
+
+
+
+
+
+    <script src="PROJ1JS/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

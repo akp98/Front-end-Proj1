@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+.book-sec1{
+    height: 170vh;
+    border: 1px solid lightseagreen;
+    background-color: aliceblue;
+}
+.para11{
+    font-size: 18px;
+}
+.para12{
+    font-size: 16px;
+}
+.btn1{
+    background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.btn1:hover{
+    text-decoration: underline;
+    color: aqua;
+}

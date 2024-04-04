@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+}
+a:hover{
+	text-decoration: underline;
+}
+.car_sz{
+    height: 400px;
+}
+.carousal-sec{
+    height: 58vh;
+    border: 2px solid lightcyan;
+}
+.img1{
+    height: 115px;
+    width: 140px;
+    background-color: lightseagreen;
+}
+.img2{
+    height: 115px;
+    width: 140px;
+    background-color: lightcyan;
+}
+.img3{
+    height: 115px;
+    width: 140px;
+    background-color: lightsalmon;
+}
+.img4{
+    height: 115px;
+    width: 140px;
+    background-color: lightslategray;
+}
+.img5{
+    height: 120px;
+    width: 150px;
+}
+.img6{
+    height: 120px;
+    width: 150px;
+}
+.img7{
+    height: 120px;
+    width: 150px;
+}
+.img8{
+    height: 120px;
+    width: 150px;
+}
+.img9{
+    height: 120px;
+    width: 150px;
+}
+.img10{
+    height: 120px;
+    width: 150px;
+}
+.sec1{
+    height: 25vh;
+    background-color: lightcyan;
+}
+.card:hover{
+	transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.sec1-bg{
+    background-color: lightblue;
+}
+
+.sec2{
+    height: 85vh;
+    border: 2px solid lightslategray;
+    background-color: lightcyan;
+}
+.sec3{
+    height: 80vh;
+    border: 2px solid indigo;
+    background-color: powderblue;
+}
+.sec3_card{
+    border-radius: 15%;
+}
+.sec4{
+	height: 80vh;
+	border: 2px solid lightcoral;
+}
+h1
+{
+	color:#fff;
+	margin:40px 0 60px 0;
+	font-weight:300;
+}
+
+.our-team-main
+{
+	width:100%;
+	height:auto;
+	border-bottom:5px #323233 solid;
+	background:#fff;
+	text-align:center;
+	border-radius:10px;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+	margin-bottom:28px;
+}
+
+
+.our-team-main img
+{
+	border-radius:50%;
+	margin-bottom:20px;
+	width: 90px;
+}
+
+.our-team-main h3
+{
+	font-size:20px;
+	font-weight:700;
+}
+
+.our-team-main p
+{
+	margin-bottom:0;
+}
+
+.team-back
+{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 15px 0 15px;
+	text-align:left;
+	background:#fff;
+	
+}
+
+.team-front
+{
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	background:#fff;
+	padding:15px;
+	bottom:0px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover .team-front
+{
+	bottom:-200px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover
+{
+	border-color:#777;
+	transition:0.5s;
+}
+
+/*our-team-main*/
